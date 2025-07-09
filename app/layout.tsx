@@ -94,6 +94,19 @@ export default function RootLayout({
 
         {/* Manifest */}
         <link rel="manifest" href="/manifest.json" />
+
+        {/* Clarity tracking code for https://earthzoomoutai.top/ */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(c,l,a,r,i,t,y){
+                  c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                  t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
+                  y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+              })(window, document, "clarity", "script", "sc3ym2gag8");
+            `
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -132,7 +145,10 @@ export default function RootLayout({
               }
             })
           }}
+
+          
         />
+        
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 min-h-screen`}
