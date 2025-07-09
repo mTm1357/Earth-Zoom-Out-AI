@@ -1,0 +1,84 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="earthGradient" cx="0.5" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#4FC3F7"/>
+      <stop offset="40%" stop-color="#29B6F6"/>
+      <stop offset="70%" stop-color="#0288D1"/>
+      <stop offset="100%" stop-color="#01579B"/>
+    </radialGradient>
+    <radialGradient id="spaceGradient" cx="0.5" cy="0.5" r="1">
+      <stop offset="0%" stop-color="#1A237E"/>
+      <stop offset="50%" stop-color="#0D47A1"/>
+      <stop offset="100%" stop-color="#000051"/>
+    </radialGradient>
+    <linearGradient id="aiGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E91E63"/>
+      <stop offset="50%" stop-color="#9C27B0"/>
+      <stop offset="100%" stop-color="#673AB7"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Space background with rounded corners for iOS -->
+  <rect width="180" height="180" rx="40" fill="url(#spaceGradient)"/>
+  
+  <!-- Stars -->
+  <circle cx="30" cy="40" r="2" fill="white" opacity="0.8"/>
+  <circle cx="150" cy="30" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="160" cy="70" r="2" fill="white" opacity="0.7"/>
+  <circle cx="20" cy="120" r="1.5" fill="white" opacity="0.5"/>
+  <circle cx="140" cy="160" r="2" fill="white" opacity="0.8"/>
+  <circle cx="50" cy="160" r="1" fill="white" opacity="0.6"/>
+  <circle cx="170" cy="120" r="1" fill="white" opacity="0.7"/>
+  <circle cx="10" cy="80" r="1.5" fill="white" opacity="0.5"/>
+  
+  <!-- Earth -->
+  <circle cx="90" cy="90" r="45" fill="url(#earthGradient)" filter="url(#glow)"/>
+  
+  <!-- Continents (more detailed) -->
+  <path d="M65 65 Q75 55 90 65 Q105 60 120 75 L110 85 Q90 80 80 85 L65 80 Z" fill="#2E7D32" opacity="0.8"/>
+  <path d="M55 100 Q70 95 80 110 Q90 100 105 115 L95 125 Q80 120 70 125 L55 115 Z" fill="#388E3C" opacity="0.7"/>
+  <ellipse cx="115" cy="100" rx="12" ry="8" fill="#4CAF50" opacity="0.6"/>
+  <path d="M70 110 Q80 105 85 115 L80 120 Q75 115 70 118 Z" fill="#66BB6A" opacity="0.5"/>
+  <ellipse cx="105" cy="70" rx="8" ry="5" fill="#4CAF50" opacity="0.7"/>
+  
+  <!-- Zoom out effect rings -->
+  <circle cx="90" cy="90" r="55" fill="none" stroke="url(#aiGradient)" stroke-width="3" opacity="0.6"/>
+  <circle cx="90" cy="90" r="65" fill="none" stroke="url(#aiGradient)" stroke-width="2.5" opacity="0.4"/>
+  <circle cx="90" cy="90" r="75" fill="none" stroke="url(#aiGradient)" stroke-width="2" opacity="0.3"/>
+  <circle cx="90" cy="90" r="85" fill="none" stroke="url(#aiGradient)" stroke-width="1.5" opacity="0.2"/>
+  
+  <!-- AI indicator dots with glow -->
+  <circle cx="45" cy="90" r="4" fill="url(#aiGradient)" opacity="0.9" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="135" cy="90" r="4" fill="url(#aiGradient)" opacity="0.9" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;0.4;1" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="90" cy="45" r="4" fill="url(#aiGradient)" opacity="0.9" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+  <circle cx="90" cy="135" r="4" fill="url(#aiGradient)" opacity="0.9" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;0.7;1" dur="3s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+  
+  <!-- Corner AI dots -->
+  <circle cx="65" cy="65" r="3" fill="url(#aiGradient)" opacity="0.7" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite" begin="2s"/>
+  </circle>
+  <circle cx="115" cy="65" r="3" fill="url(#aiGradient)" opacity="0.7" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="4s" repeatCount="indefinite" begin="2s"/>
+  </circle>
+  <circle cx="65" cy="115" r="3" fill="url(#aiGradient)" opacity="0.7" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="4s" repeatCount="indefinite" begin="3s"/>
+  </circle>
+  <circle cx="115" cy="115" r="3" fill="url(#aiGradient)" opacity="0.7" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.9;0.5;0.9" dur="4s" repeatCount="indefinite" begin="3s"/>
+  </circle>
+</svg>

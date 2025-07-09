@@ -1,0 +1,48 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="earthGradient" cx="0.5" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#4FC3F7"/>
+      <stop offset="40%" stop-color="#29B6F6"/>
+      <stop offset="70%" stop-color="#0288D1"/>
+      <stop offset="100%" stop-color="#01579B"/>
+    </radialGradient>
+    <radialGradient id="spaceGradient" cx="0.5" cy="0.5" r="1">
+      <stop offset="0%" stop-color="#1A237E"/>
+      <stop offset="50%" stop-color="#0D47A1"/>
+      <stop offset="100%" stop-color="#000051"/>
+    </radialGradient>
+    <linearGradient id="aiGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E91E63"/>
+      <stop offset="50%" stop-color="#9C27B0"/>
+      <stop offset="100%" stop-color="#673AB7"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Space background -->
+  <rect width="16" height="16" rx="2" fill="url(#spaceGradient)"/>
+  
+  <!-- Stars -->
+  <circle cx="3" cy="4" r="0.3" fill="white" opacity="0.8"/>
+  <circle cx="13" cy="3" r="0.2" fill="white" opacity="0.6"/>
+  <circle cx="14" cy="7" r="0.2" fill="white" opacity="0.7"/>
+  <circle cx="2" cy="12" r="0.2" fill="white" opacity="0.5"/>
+  <circle cx="12" cy="14" r="0.3" fill="white" opacity="0.8"/>
+  
+  <!-- Earth -->
+  <circle cx="8" cy="8" r="4" fill="url(#earthGradient)"/>
+  
+  <!-- Continents (simplified) -->
+  <path d="M6 6 Q7 5 8 6 Q9 5.5 10 6.5 L9 7.5 Q8 7 7 7.5 L6 7 Z" fill="#2E7D32" opacity="0.8"/>
+  <path d="M5 9 Q6 8.5 7 9.5 Q8 9 9 10 L8 11 Q7 10.5 6 11 L5 10 Z" fill="#388E3C" opacity="0.7"/>
+  <ellipse cx="10" cy="9" rx="1" ry="0.8" fill="#4CAF50" opacity="0.6"/>
+  
+  <!-- Zoom out effect rings -->
+  <circle cx="8" cy="8" r="5" fill="none" stroke="url(#aiGradient)" stroke-width="0.5" opacity="0.6"/>
+  <circle cx="8" cy="8" r="6" fill="none" stroke="url(#aiGradient)" stroke-width="0.4" opacity="0.4"/>
+  
+  <!-- AI indicator dots -->
+  <circle cx="4" cy="8" r="0.5" fill="url(#aiGradient)" opacity="0.8"/>
+  <circle cx="12" cy="8" r="0.5" fill="url(#aiGradient)" opacity="0.8"/>
+  <circle cx="8" cy="4" r="0.5" fill="url(#aiGradient)" opacity="0.8"/>
+  <circle cx="8" cy="12" r="0.5" fill="url(#aiGradient)" opacity="0.8"/>
+</svg>
