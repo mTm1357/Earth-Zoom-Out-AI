@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   publisher: "Earth Zoom Out AI",
   robots: "index, follow",
   alternates: {
-    canonical: "https://earthzoomout.ai"
+    canonical: "https://earthzoomoutai.top"
   },
   openGraph: {
     title: "Earth Zoom Out AI Free - Create Epic Space Videos from Photos",
@@ -60,12 +60,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://earthzoomout.ai" />
+        <link rel="canonical" href="https://earthzoomoutai.top" />
 
         {/* Icons */}
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="icon" href="/icon.svg" type="image/svg+xml" sizes="32x32" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.svg" type="image/svg+xml" sizes="180x180" />
+        <link rel="icon" href="/favicon-16.svg?v=2" type="image/svg+xml" sizes="16x16" />
+        <link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml" />
+        <link rel="icon" href="/icon.svg?v=2" type="image/svg+xml" sizes="32x32" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.svg?v=2" type="image/svg+xml" sizes="180x180" />
 
         {/* Additional SEO Meta Tags */}
         <meta name="geo.region" content="US" />
@@ -89,10 +90,7 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-        {/* Favicon and app icons */}
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        {/* Manifest */}
         <link rel="manifest" href="/manifest.json" />
         <script
           type="application/ld+json"
@@ -103,7 +101,7 @@ export default function RootLayout({
               "name": "Earth Zoom Out AI Free",
               "alternateName": ["Earth Zoom Effect Generator", "Free Earth Zoom Out Tool"],
               "description": "Free Earth zoom out AI tool to create stunning earth zoom out effects and space videos from any photo. Transform images into cinematic earth zoom out to universe animations.",
-              "url": "https://earthzoomout.ai",
+              "url": "https://earthzoomoutai.top",
               "applicationCategory": "MultimediaApplication",
               "operatingSystem": "Web Browser",
               "keywords": "earth zoom out free, earth zoom out effect, earth zoom effect, earth zoom out gratis, earth zoom out effect free, earth zoom out ai, earth zoom, zoom earth live, earth zoom out to universe",

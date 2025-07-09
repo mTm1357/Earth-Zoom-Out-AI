@@ -6,7 +6,7 @@ export default function StructuredData() {
     "@graph": [
       {
         "@type": "WebApplication",
-        "@id": "https://earthzoomout.ai/#webapp",
+        "@id": "https://earthzoomoutai.top/#webapp",
         "name": "Earth Zoom Out Free - AI Earth Zoom Effect Generator",
         "alternateName": [
           "Earth Zoom Out Free",
@@ -16,7 +16,7 @@ export default function StructuredData() {
           "Earth Zoom Out Gratis"
         ],
         "description": "Free earth zoom out effect generator! Create stunning earth zoom out to universe videos with AI. Transform photos into epic earth zoom effects - completely gratis!",
-        "url": "https://earthzoomout.ai",
+        "url": "https://earthzoomoutai.top",
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Web Browser",
         "keywords": "earth zoom out free, earth zoom out effect, earth zoom effect, earth zoom out gratis, earth zoom out effect free, earth zoom out ai, earth zoom, zoom earth live, earth zoom out to universe",
@@ -43,7 +43,7 @@ export default function StructuredData() {
         "creator": {
           "@type": "Organization",
           "name": "Earth Zoom Out AI",
-          "url": "https://earthzoomout.ai"
+          "url": "https://earthzoomoutai.top"
         },
         "aggregateRating": {
           "@type": "AggregateRating",
@@ -52,11 +52,11 @@ export default function StructuredData() {
           "bestRating": "5",
           "worstRating": "1"
         },
-        "screenshot": "https://earthzoomout.ai/screenshot.jpg"
+        "screenshot": "https://earthzoomoutai.top/screenshot.jpg"
       },
       {
         "@type": "FAQPage",
-        "@id": "https://earthzoomout.ai/#faq",
+        "@id": "https://earthzoomoutai.top/#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -94,7 +94,7 @@ export default function StructuredData() {
       },
       {
         "@type": "HowTo",
-        "@id": "https://earthzoomout.ai/#howto",
+        "@id": "https://earthzoomoutai.top/#howto",
         "name": "How to Create Earth Zoom Out Effects Free",
         "description": "Step-by-step guide to create stunning earth zoom out to universe videos using our free AI generator",
         "step": [
@@ -102,25 +102,25 @@ export default function StructuredData() {
             "@type": "HowToStep",
             "name": "Upload Your Photo",
             "text": "Upload any photo to start creating your earth zoom out effect free",
-            "image": "https://earthzoomout.ai/step1.jpg"
+            "image": "https://earthzoomoutai.top/step1.jpg"
           },
           {
             "@type": "HowToStep", 
             "name": "Choose Settings",
             "text": "Select your preferred earth zoom effect settings including zoom level, duration, and quality",
-            "image": "https://earthzoomout.ai/step2.jpg"
+            "image": "https://earthzoomoutai.top/step2.jpg"
           },
           {
             "@type": "HowToStep",
             "name": "Generate Video",
             "text": "Click generate to create your earth zoom out to universe video with our earth zoom out ai",
-            "image": "https://earthzoomout.ai/step3.jpg"
+            "image": "https://earthzoomoutai.top/step3.jpg"
           },
           {
             "@type": "HowToStep",
             "name": "Download Result", 
             "text": "Preview your earth zoom out effect and download the final video in 4K quality",
-            "image": "https://earthzoomout.ai/step4.jpg"
+            "image": "https://earthzoomoutai.top/step4.jpg"
           }
         ],
         "totalTime": "PT5M",
