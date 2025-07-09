@@ -2,7 +2,7 @@
 
 Transform your photos into epic space journeys with the power of AI. Create stunning Earth zoom-out videos from any image in seconds.
 
-![Earth Zoom Out AI](https://via.placeholder.com/800x400/1e40af/ffffff?text=Earth+Zoom+Out+AI)
+![Earth Zoom Out AI](https://earthzoomoutai.top)
 
 ## ✨ Features
 
