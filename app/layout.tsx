@@ -19,6 +19,7 @@ export const viewport = {
 };
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://earthzoomoutai.top'),
   title: "Earth Zoom Out AI Free",
   description: "Free earth zoom out AI tool.Create stunning earth zoom out effects from any photo. Transform images into cinematic space videos. Try now!",
   authors: [{ name: "Earth Zoom Out AI" }],

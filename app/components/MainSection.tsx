@@ -20,7 +20,7 @@ export default function MainSection() {
   const [zoomLevel, setZoomLevel] = useState(5);
   const [duration, setDuration] = useState(6);
   const [quality, setQuality] = useState('4k');
-  const [currentJobId, setCurrentJobId] = useState<string | null>(null);
+
   const [queuePosition, setQueuePosition] = useState(0);
   const [estimatedTimeRemaining, setEstimatedTimeRemaining] = useState(0);
   const [showAdvancedSettings, setShowAdvancedSettings] = useState(false);
@@ -88,8 +88,7 @@ export default function MainSection() {
         throw new Error('Generation failed to start');
       }
 
-      const { jobId, queuePosition: initialQueuePosition, estimatedWaitTime, estimatedTotalTime } = await generateResponse.json();
-      setCurrentJobId(jobId);
+      const { queuePosition: initialQueuePosition, estimatedWaitTime, estimatedTotalTime } = await generateResponse.json();
       setQueuePosition(initialQueuePosition || 0);
       setEstimatedTimeRemaining(estimatedTotalTime || estimatedWaitTime || 600);
 

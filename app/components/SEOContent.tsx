@@ -46,20 +46,20 @@ export default function SEOContent() {
           Our <strong>earth zoom out free</strong> tool uses advanced artificial intelligence to analyze your image and create realistic
           depth mapping. Unlike simple zoom effects, our <strong>earth zoom out AI</strong> understands the spatial relationships in your
           photo and generates smooth, natural-looking transitions. The result is a professional-quality <strong>earth zoom out effect</strong>
-          that rivals expensive video production software, but it's completely <strong>earth zoom out gratis</strong>. Our
+          that rivals expensive video production software, but it&apos;s completely <strong>earth zoom out gratis</strong>. Our
           <strong>zoom earth live</strong> preview feature lets you see the <strong>earth zoom effect</strong> in real-time before downloading.
         </p>
 
         <h3>How to Use Earth Zoom Out AI - Complete Guide</h3>
         <p>
-          Creating stunning <strong>earth zoom out effects</strong> with our tool is incredibly simple. Here's the complete step-by-step
+          Creating stunning <strong>earth zoom out effects</strong> with our tool is incredibly simple. Here&apos;s the complete step-by-step
           guide for using our <strong>earth zoom out free</strong> generator:
         </p>
         <ol>
           <li><strong>Upload Your Image:</strong> Click the upload area and select any photo from your device. Our <strong>earth zoom out AI</strong> works with JPG, PNG, and other common image formats. High-resolution images produce the best <strong>earth zoom out effects</strong>.</li>
           <li><strong>Choose Quick Preset:</strong> Select from Quick (fast generation), Standard (balanced quality), or Epic (maximum quality) presets for instant <strong>earth zoom effect</strong> configuration. Each preset optimizes zoom level, duration, and quality for different use cases.</li>
           <li><strong>Customize Advanced Settings:</strong> Expand Advanced Settings to fine-tune zoom level (2x-20x), duration (3-10 seconds), and quality (1080p or 4K) for your <strong>earth zoom out effect</strong>. Higher zoom levels create more dramatic <strong>earth zoom out to universe</strong> effects.</li>
-          <li><strong>Generate Your Video:</strong> Click "Generate Earth Zoom Video" to start creating your <strong>earth zoom out effect free</strong> animation. Our AI will process your image and create the cinematic transition effect.</li>
+          <li><strong>Generate Your Video:</strong> Click &quot;Generate Earth Zoom Video&quot; to start creating your <strong>earth zoom out effect free</strong> animation. Our AI will process your image and create the cinematic transition effect.</li>
           <li><strong>Preview Results:</strong> Watch the <strong>zoom earth live</strong> preview to see your <strong>earth zoom out effect</strong> in action. You can regenerate with different settings if needed.</li>
           <li><strong>Download & Share:</strong> Download your finished video in high quality and share your amazing <strong>earth zoom out gratis</strong> creation on social media or use it in your projects.</li>
         </ol>
