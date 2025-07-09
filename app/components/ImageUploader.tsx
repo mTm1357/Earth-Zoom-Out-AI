@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useCallback } from 'react';
+import Image from 'next/image';
 
 interface ImageUploaderProps {
   onImageUpload: (file: File) => void;
@@ -21,24 +22,7 @@ export default function ImageUploader({ onImageUpload, isProcessing = false }: I
     }
   }, []);
 
-  const handleDrop = useCallback((e: React.DragEvent) => {
-    e.preventDefault();
-    e.stopPropagation();
-    setDragActive(false);
-
-    if (e.dataTransfer.files && e.dataTransfer.files[0]) {
-      handleFile(e.dataTransfer.files[0]);
-    }
-  }, []);
-
-  const handleChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
-    e.preventDefault();
-    if (e.target.files && e.target.files[0]) {
-      handleFile(e.target.files[0]);
-    }
-  }, []);
-
-  const handleFile = (file: File) => {
+  const handleFile = useCallback((file: File) => {
     if (file.type.startsWith('image/')) {
       const reader = new FileReader();
       reader.onload = (e) => {
@@ -47,7 +31,24 @@ export default function ImageUploader({ onImageUpload, isProcessing = false }: I
       reader.readAsDataURL(file);
       onImageUpload(file);
     }
-  };
+  }, [onImageUpload]);
+
+  const handleDrop = useCallback((e: React.DragEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setDragActive(false);
+
+    if (e.dataTransfer.files && e.dataTransfer.files[0]) {
+      handleFile(e.dataTransfer.files[0]);
+    }
+  }, [handleFile]);
+
+  const handleChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
+    e.preventDefault();
+    if (e.target.files && e.target.files[0]) {
+      handleFile(e.target.files[0]);
+    }
+  }, [handleFile]);
 
   return (
     <div className="w-full max-w-2xl mx-auto">
@@ -72,11 +73,16 @@ export default function ImageUploader({ onImageUpload, isProcessing = false }: I
         
         {preview ? (
           <div className="space-y-4">
-            <img 
-              src={preview} 
-              alt="Preview" 
-              className="max-h-64 mx-auto rounded-lg shadow-lg"
-            />
+            <div className="relative max-h-64 mx-auto">
+              <Image
+                src={preview}
+                alt="Preview"
+                width={400}
+                height={256}
+                className="max-h-64 w-auto mx-auto rounded-lg shadow-lg object-contain"
+                style={{ maxHeight: '16rem' }}
+              />
+            </div>
             <p className="text-green-400 font-medium">✓ Image uploaded successfully!</p>
             <p className="text-gray-400 text-sm">Click or drag to change image</p>
           </div>
