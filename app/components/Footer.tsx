@@ -1,5 +1,7 @@
 "use client";
 
+import Link from 'next/link';
+
 export default function Footer() {
   return (
     <footer className="w-full bg-black/20 border-t border-white/10 mt-16">
@@ -63,7 +65,11 @@ export default function Footer() {
             <h4 className="font-semibold mb-4 text-white">Legal</h4>
             <ul className="space-y-2 text-sm">
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Terms of Service</a></li>
+              <li>
+                <Link href="/terms-and-conditions" className="text-gray-400 hover:text-white transition-colors">
+                  Terms & Conditions
+                </Link>
+              </li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Cookie Policy</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Contact</a></li>
             </ul>
