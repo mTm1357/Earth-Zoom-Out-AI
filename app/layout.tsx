@@ -95,6 +95,13 @@ export default function RootLayout({
         {/* Manifest */}
         <link rel="manifest" href="/manifest.json" />
 
+        {/* Google AdSense */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4170553877064090"
+          crossOrigin="anonymous"
+        />
+
         {/* Clarity tracking code for https://earthzoomoutai.top/ */}
         <script
           dangerouslySetInnerHTML={{

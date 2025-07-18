@@ -26,7 +26,7 @@ export default function TermsAndConditions() {
                 <h2 className="text-2xl font-semibold mb-4 text-blue-300">1. Service Overview</h2>
                 <p className="text-gray-300 leading-relaxed mb-4">
                   Earth Zoom Out AI provides artificial intelligence-powered video generation services that transform 
-                  static images into dynamic "earth zoom out" effect videos. Our service operates on a one-time payment 
+                  static images into dynamic &quot;earth zoom out&quot; effect videos. Our service operates on a one-time payment
                   model for each video generation request.
                 </p>
               </section>
@@ -128,7 +128,7 @@ export default function TermsAndConditions() {
               <section className="mb-8">
                 <h2 className="text-2xl font-semibold mb-4 text-blue-300">8. Limitation of Liability</h2>
                 <p className="text-gray-300 leading-relaxed mb-4">
-                  Earth Zoom Out AI provides services "as is" without warranties. Our liability is limited 
+                  Earth Zoom Out AI provides services &quot;as is&quot; without warranties. Our liability is limited
                   to the amount paid for the specific service. We are not responsible for indirect damages, 
                   lost profits, or consequential damages arising from service use.
                 </p>
