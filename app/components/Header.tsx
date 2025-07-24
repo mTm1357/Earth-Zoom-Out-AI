@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function Header() {
   return (
     <header className="container mx-auto px-4 py-6">
-      <nav className="flex items-center justify-start">
+      <nav className="flex items-center justify-between w-full">
         <Link
           href="/"
           className="flex items-center space-x-2 hover:opacity-80 transition-opacity cursor-pointer"
@@ -52,6 +52,26 @@ export default function Header() {
             Earth Zoom Out AI
           </h1>
         </Link>
+
+        {/* Navigation Menu */}
+        <div className="hidden md:flex items-center space-x-6">
+          <Link
+            href="/blog"
+            className="text-gray-300 hover:text-white transition-colors font-medium"
+          >
+            Blog
+          </Link>
+        </div>
+
+        {/* Mobile Menu Button */}
+        <div className="md:hidden">
+          <Link
+            href="/blog"
+            className="text-gray-300 hover:text-white transition-colors text-sm"
+          >
+            Blog
+          </Link>
+        </div>
       </nav>
     </header>
   );

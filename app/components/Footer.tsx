@@ -54,9 +54,11 @@ export default function Footer() {
           <div className="text-center md:text-left">
             <h4 className="font-semibold mb-4 text-white">Quick Links</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Help Center</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">API Docs</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Blog</a></li>
+              <li>
+                <Link href="/blog" className="text-gray-400 hover:text-white transition-colors">
+                  Blog
+                </Link>
+              </li>
             </ul>
           </div>
           
@@ -64,14 +66,21 @@ export default function Footer() {
           <div className="text-center md:text-left">
             <h4 className="font-semibold mb-4 text-white">Legal</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
+              <li>
+                <Link href="/privacy-policy" className="text-gray-400 hover:text-white transition-colors">
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link href="/terms-of-service" className="text-gray-400 hover:text-white transition-colors">
+                  Terms of Service
+                </Link>
+              </li>
               <li>
                 <Link href="/terms-and-conditions" className="text-gray-400 hover:text-white transition-colors">
                   Terms & Conditions
                 </Link>
               </li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Cookie Policy</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Contact</a></li>
             </ul>
           </div>
         </div>
